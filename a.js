@@ -3,4 +3,4 @@ function plus(a, b) {
 }
 
 
-const a = plus(1, 2); // 3
+const a = plus(13, 2); // 3
