@@ -6,9 +6,11 @@ function daysBetweenDates(date1, date2) {
     const firstDate = new Date(date1);
     const secondDate = new Date(date2);
 
-    const diffDays = Math.round(((firstDate - secondDate) / oneDay));
+    const diffDays = ((firstDate - secondDate) / oneDay);
     return diffDays;
 }
+
+
 plus = function (a, b) {
     return a + b + 1;
 }
